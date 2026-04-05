@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>หน้าหลักkitnamemaiouk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #F8EFBA;
+            font-family: 'Noto Sans Thai', sans-serif;
+            margin: 0;
+        }
+
+        .head {
+            background-color: #F8EFBA;
+            background-size: cover;
+            background-position: center;
+            padding: 70px 10px;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://campus.campus-star.com/app/uploads/2016/01/308223_125016900932183_1343009764_n.jpg');
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #ffffff;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        .subtitle {
+            color: white;
+            font-size: 24px;
+        }
+
+        #food-section {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            margin: 50px auto;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+            max-width: 1100px;
+        }
+
+        .food-card {
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid #eee;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            transition: 0.3s ease;
+        }
+
+        .food-card img {
+            width: 100%;
+            height: 120px;
+            object-fit: contain;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .food-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Food Around SU
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#food-section">ของกินรอบม.ศิลปากร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#creator-section">ผู้จัดทำ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="head">
+        <h1>ร้านอาหารดังรอบ ม.ศิลปากร</h1>
+        <p class="subtitle">Sanamchan University</p>
+    </div>
+
+    <div id="food-section" class="py-5 bg-light">
+        <div class="container">
+            <section class="section">
+
+                <!-- Card 1 -->
+                <a href="monthawat.html" class="text-decoration-none text-dark w-100 mb-4" style="max-width: 800px;">
+                    <div class="food-card">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 p-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkS1x0froAX10JXQ1du_tRyVd8njL5WOmBgQ&s">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body text-start ps-2">
+                                    <h2 class="h4 mb-0">ข้าวมันไก่ป้าจ๋า 23ชม. 🐔</h2>
+                                    <p class="text-secondary mb-0 mt-2">อิ่ม อร่อย คุ้มค่า ข้าวมันไก่ป้าจ๋า 23 ชั่วโมง</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a href="#" class="text-decoration-none text-dark w-100 mb-4" style="max-width: 800px;">
+                    <div class="food-card">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 p-3">
+                                <img src="https://www.lemon8-app.com/seo/image?item_id=7217019326061216257&index=0">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body text-start ps-2">
+                                    <h2 class="h4 mb-0">S.U. Steak 🥩</h2>
+                                    <p class="text-secondary mb-0 mt-2">ร้านสเต็กยอดนิยม ราคานักศึกษา</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a href="#" class="text-decoration-none text-dark w-100 mb-4" style="max-width: 800px;">
+                    <div class="food-card">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 p-3">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoe4zAIblDZS3XOf4uUgnm3v-Nnb4CuUJjOM9dQeS6wH9VPgKc7XW7A4gpEy-j3dTScDS9N4kcK0CsR-rlwSY46mOqf0WN-XSqij5yu0qvOi-rOaROpqH3QJrE1MU81dpehnh-SUkfI-lo=s680-w680-h510-rw">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body text-start ps-2">
+                                    <h2 class="h4 mb-0">ก๋วยเตี๋ยวเรือ ท่าสนาม 🍜</h2>
+                                    <p class="text-secondary mb-0 mt-2">ร้านก๋วยเตี๋ยวเรือในดวงใจเด็กศิลปากร</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a href="#" class="text-decoration-none text-dark w-100 mb-4" style="max-width: 800px;">
+                    <div class="food-card">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4 p-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmwinNo8Z749pgsOrPkLJ0s8DJvOQUXeDqw&s">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body text-start ps-2">
+                                    <h2 class="h4 mb-0">หมูกระทะ บ้านลูกหมู 🐷</h2>
+                                    <p class="text-secondary mb-0 mt-2">วัตถุดิบดี น้ำจิ้มอร่อย</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </section>
+        </div>
+    </div>
+
+    <footer class="py-4 bg-dark" id="creator-section">
+        <div class="container">
+            <h6 class="text-center mb-4 text-secondary">จัดทำโดย Kitnamemaiouk</h6>
+            <div class="text-center">
+                <small class="text-secondary">Food Around SU</small>
+                <ul class="list-unstyled d-flex justify-content-center mb-0 mt-2">
+                    <li class="mx-2"><a href="#" class="text-secondary text-decoration-none">หน้าแรก</a></li>
+                    <li class="mx-2"><a href="#food-section"
+                            class="text-secondary text-decoration-none">ของกินรอบม.</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
